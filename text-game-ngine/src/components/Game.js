@@ -25,7 +25,7 @@ class Game extends React.Component {
     calculateDivWidth(text){
         let res = Math.round(Math.sqrt(text.length * 17)) * 6;
         let width = (res < 1200) ? res : 1200;
-        return ({maxWidth: width});
+        return ({maxWidth: `${width}px`});
     }
 
     getNextQuestionFromChoice(choice){

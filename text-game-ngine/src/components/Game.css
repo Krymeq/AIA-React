@@ -17,6 +17,11 @@
 
 }
 
+.choices {
+    display: flex;
+    flex-direction: column;
+}
+
 button {
     cursor: pointer;
     padding: 7px;

@@ -12,7 +12,7 @@
                         "success": 0
                     },
                     {
-                        "text":"Cholera...",
+                        "text":"Damn...",
                         "success": 0
                     }
                 ]
@@ -38,14 +38,14 @@
                 "text": "Rozbroiłeś bombę, jesteś bohaterem całej wsi!",
                 "choices": [
                     {
-                        "text": "Yay ^_^",
+                        "text": "Zwycięstwo!",
                         "success": 0
                     }
                 ]
             },
             {
                 "id": 2,
-                "text": "Zostawiłeś bombę na środku wsi. Wyjechałeś w podróż do domu, jednak 100km od wioski słyszysz potężny wybuch. Prawdopodobnie koło gospodyń wiejskich postanowiło po mszy rozbroić bombę samodzielnie...",
+                "text": "Zostawiłeś bombę na środku wsi. Wyjechałeś w podróż do domu, jednak 100km od wioski słyszysz potężny wybuch. Prawdopodobnie mieszkańcy wsi postanowili rozbroić bombę samodzielnie...",
                 "choices": [
                     {
                         "text": "oops...",
