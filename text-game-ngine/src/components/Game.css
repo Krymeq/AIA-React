@@ -14,7 +14,7 @@
 .game span {
     text-align: justify;
     padding: 15px;
-
+    white-space: pre-line;
 }
 
 .choices {
