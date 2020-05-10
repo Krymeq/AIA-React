@@ -5,14 +5,14 @@ import { Item } from './item/Item';
 
 @Module({
   imports: [TypeOrmModule.forRoot(
-    {
-      "type": "mysql",
-      "host": "localhost",
+    {           
+      "type": "mysql",              // Database type
+      "host": "localhost",          // URL and port of DB connection
       "port": 3306,
-      "username": "Krymeq",
-      "password": "KrymeqPass1,",
-      "database": "Shop",
-      "entities": [Item],
+      "username": "foo",            // Username and password of the database
+      "password": "bar1231,",   
+      "database": "Shop",           // Name of the database app will connect to
+      "entities": [Item],           
       "synchronize": false,
       "logging": true
     } 
