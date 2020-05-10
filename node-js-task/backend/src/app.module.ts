@@ -9,12 +9,13 @@ import { Item } from './item/Item';
       "type": "mysql",
       "host": "localhost",
       "port": 3306,
-      "username": "krymeq",
+      "username": "Krymeq",
       "password": "KrymeqPass1,",
       "database": "Shop",
       "entities": [Item],
-      "synchronize": false
-  }
+      "synchronize": false,
+      "logging": true
+    } 
   ), ItemModule],
 })
 export class AppModule {}

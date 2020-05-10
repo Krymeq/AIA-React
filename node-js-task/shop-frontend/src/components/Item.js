@@ -10,7 +10,7 @@ class Item extends React.Component {
         const amount = prompt("Podaj ilość");
         console.log(amount);
         if(amount > 0){
-            let item = Object.assign({}, this.props.item, {quantity: amount});
+            let item = Object.assign({}, this.props.item, {quantity: parseInt(amount)});
             this.props.addItem(item);
         }
         else if(amount !== null)

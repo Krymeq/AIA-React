@@ -1,23 +1,24 @@
-[
-    {
-        "id": 0,
-        "icon": "/assets/witcher3.png",
-        "title": "Wiedźmin 3",
-        "description": "Jeśli miałbym wybierać pomiędzy jednym złem a drugim, wolałbym nie wybierać wcale.",
-        "rating": 9.1
-    },
-    {
-        "id": 1,
-        "icon": "/assets/falloutboy.png",
-        "title": "Fallout 4",
-        "description": "War, war never changes...",
-        "rating": 8.5
-    },
-    {
-        "id": 2,
-        "icon": "/assets/gothic.png",
-        "title": "Gothic II - Noc Kruka",
-        "description": "A Beliar nie znosił widoku światła i niszczył wszystko, co Innos stworzył.",
-        "rating": 10.0
-    }
-]
+{
+    "id": 1,
+    "name": "Gibson Les Paul",
+    "quantity": 5,
+    "price": 7499.99
+},
+{
+    "id": 2,
+    "name": "Fender Stratocaster",
+    "quantity": 8,
+    "price": 3599.99
+},
+{
+    "id": 3,
+    "name": "Schecter Omen",
+    "quantity": 11,
+    "price": 1199.99
+},
+{
+    "id": 4,
+    "name": "Ibanez RG421AHM",
+    "quantity": 3,
+    "price": 1899.99
+}

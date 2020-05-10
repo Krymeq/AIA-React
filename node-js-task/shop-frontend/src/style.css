@@ -1,6 +1,23 @@
-main {
+.main {
     display: flex;
     justify-content: center;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.link-button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid blue;
+    user-select: none;
+    transition: all 0.1s ease-in;
+    background-color: #f0f0f0;
+    font-size: 11px;
+    margin: 0px 10px;
 }
 
 .table-header {
@@ -25,12 +42,12 @@ main {
     transition: all 0.1s ease-in;
 }
 
-.item-list-row button:hover {
+.item-list-row button:hover, .link-button:hover {
     background-color: #aaaaff;
     cursor: pointer;
 }
 
-.item-list-row button:active {
+.item-list-row button:active, .link-button:active {
     background-color: white;
 }
 
@@ -73,8 +90,10 @@ header .basket-button:active {
 .popup-container {
     font-size: 13px;
     text-align: left;
+    display: flex;
+    flex-wrap: nowrap;
     position: relative;
-    margin-right: 10px;
+    margin: 0px 10px 0px -60px;
 }
 
 .popup {
@@ -89,19 +108,29 @@ header .basket-button:active {
     width: max-content;
 }
 
+.disabled {
+    display: none !important;
+}
+
 .popup table tr td, .popup table tr th {
     padding: 0 10px;
 }
 
-.popup span{
-    display: block;
+.popup .table-container {
+    padding-bottom: 10px;
+    border-bottom: 1px solid blue;
+    margin-bottom: 10px;
 }
 
 .popup .total-price {
-    border-top: 1px solid blue;
-    margin: 5px 10px;
-    padding: 10px 18.45px 0px;
+    padding: 0px 10px;
+    margin-right: auto;
     text-align: right;
+
+}
+
+header span {
+    margin: 0px auto;
 }
 
 .remove-item-btn {
@@ -122,4 +151,28 @@ header .basket-button:active {
 .remove-item-btn img {
     height: 8px;
     width: 8px;
+}
+
+.popup-button-container {
+    display: flex;
+    align-items: center;
+}
+
+.popup-button {
+    border: 1px solid #0af;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    transition: all 0.1s ease-in;
+}
+
+.popup-button:hover {
+    border: 1px solid #aaf;
+    background-color: #aaf;
+}
+
+.link-button-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
 }

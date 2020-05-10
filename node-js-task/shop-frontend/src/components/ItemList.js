@@ -2,7 +2,12 @@ import React from 'react'
 import Item from './Item'
 
 class ItemList extends React.Component {
+    componentDidMount() {
+        this.props.toggleBasketButton(true);
+    }
+
     render(){
+        console.log(this.props.items);
         const items = this.props.items
             .map(e =>
                 <Item 
